@@ -2323,9 +2323,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1264435076}
-  waypoint2: {fileID: 434406581}
-  target: {fileID: 1264435076}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &74535453
 PrefabInstance:
@@ -3213,9 +3213,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 470095886}
-  waypoint2: {fileID: 1010204618}
-  target: {fileID: 470095886}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!4 &109583103 stripped
 Transform:
@@ -4765,11 +4765,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3486382601479575848, guid: 936b6f10da88bb644813e3e9a39b90ce, type: 3}
   m_PrefabInstance: {fileID: 160234943}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &161574042 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2119775930974504096, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
-  m_PrefabInstance: {fileID: 218830661}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &162161997 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8369083279605596869, guid: 9ec90620d213a2242b16c74c5a7a385f, type: 3}
@@ -4857,9 +4852,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1885645887}
-  waypoint2: {fileID: 1936735529}
-  target: {fileID: 1885645887}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &164794127
 PrefabInstance:
@@ -5829,9 +5824,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openandclose: {fileID: 202777003}
+  openandclose: {fileID: 0}
   open: 0
-  Player: {fileID: 161574042}
+  Player: {fileID: 0}
 --- !u!95 &202777003
 Animator:
   serializedVersion: 7
@@ -6689,15 +6684,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2119775930974504096, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 76.54
+      value: 74.42
       objectReference: {fileID: 0}
     - target: {fileID: 2119775930974504096, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.65
+      value: 1.43
       objectReference: {fileID: 0}
     - target: {fileID: 2119775930974504096, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 78.01
+      value: 91.86
       objectReference: {fileID: 0}
     - target: {fileID: 2119775930974504096, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6729,15 +6724,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3203261902030644824, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.19999674
+      value: 0.1999965
       objectReference: {fileID: 0}
     - target: {fileID: 3203261902030644824, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.44500017
+      value: 0.44500005
       objectReference: {fileID: 0}
     - target: {fileID: 3203261902030644824, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.3500063
+      value: -4.0000005
       objectReference: {fileID: 0}
     - target: {fileID: 3203261902030644825, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: Priority.Enabled
@@ -6757,7 +6752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5542111180780342647, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.19999674
+      value: 0.1999965
       objectReference: {fileID: 0}
     - target: {fileID: 5542111180780342647, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -6765,7 +6760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5542111180780342647, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.3500063
+      value: -4.0000005
       objectReference: {fileID: 0}
     - target: {fileID: 8047161636021232021, guid: c708a3b79cd542b42bbfedb17e213bc1, type: 3}
       propertyPath: m_Name
@@ -10427,9 +10422,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openandclose: {fileID: 328188287}
+  openandclose: {fileID: 0}
   open: 0
-  Player: {fileID: 161574042}
+  Player: {fileID: 0}
 --- !u!95 &328188287
 Animator:
   serializedVersion: 7
@@ -12470,9 +12465,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 931928552}
-  waypoint2: {fileID: 1454293709}
-  target: {fileID: 931928552}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &386555498
 PrefabInstance:
@@ -14004,9 +13999,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 2105042232}
-  waypoint2: {fileID: 682107206}
-  target: {fileID: 2105042232}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!4 &461887599 stripped
 Transform:
@@ -18613,9 +18608,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openandclose: {fileID: 626592261}
+  openandclose: {fileID: 0}
   open: 0
-  Player: {fileID: 161574042}
+  Player: {fileID: 0}
 --- !u!95 &626592261
 Animator:
   serializedVersion: 7
@@ -18930,9 +18925,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openandclose: {fileID: 635741333}
+  openandclose: {fileID: 0}
   open: 0
-  Player: {fileID: 161574042}
+  Player: {fileID: 0}
 --- !u!95 &635741333
 Animator:
   serializedVersion: 7
@@ -19212,9 +19207,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1196897411}
-  waypoint2: {fileID: 1641026162}
-  target: {fileID: 1196897411}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1 &650724015
 GameObject:
@@ -21467,6 +21462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -21554,6 +21550,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!4 &708604362 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6458a4c9f91f22741a5064b5b7cfd892, type: 3}
@@ -22641,9 +22660,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1522779714}
-  waypoint2: {fileID: 1758831033}
-  target: {fileID: 1522779714}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &747614881
 PrefabInstance:
@@ -25763,9 +25782,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1601198944}
-  waypoint2: {fileID: 137463283}
-  target: {fileID: 1601198944}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &853611677
 PrefabInstance:
@@ -26080,9 +26099,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1811317758}
-  waypoint2: {fileID: 977239674}
-  target: {fileID: 1811317758}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &856653633
 PrefabInstance:
@@ -28139,9 +28158,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openandclose: {fileID: 929691015}
+  openandclose: {fileID: 0}
   open: 0
-  Player: {fileID: 161574042}
+  Player: {fileID: 0}
 --- !u!95 &929691015
 Animator:
   serializedVersion: 7
@@ -28403,9 +28422,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 673384550}
-  waypoint2: {fileID: 203304468}
-  target: {fileID: 673384550}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &931358309
 PrefabInstance:
@@ -30596,9 +30615,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 2060435102}
-  waypoint2: {fileID: 1243606915}
-  target: {fileID: 2060435102}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1007140890
 PrefabInstance:
@@ -32004,9 +32023,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1601282910}
-  waypoint2: {fileID: 1803551560}
-  target: {fileID: 1601282910}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1028034259
 PrefabInstance:
@@ -33785,9 +33804,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 2085682127}
-  waypoint2: {fileID: 954587975}
-  target: {fileID: 2085682127}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1103811612
 PrefabInstance:
@@ -34235,9 +34254,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1858417571}
-  waypoint2: {fileID: 2090672583}
-  target: {fileID: 1858417571}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1132778796
 PrefabInstance:
@@ -35715,9 +35734,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1914000380}
-  waypoint2: {fileID: 700977312}
-  target: {fileID: 1914000380}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1 &1196897411
 GameObject:
@@ -38273,9 +38292,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openandclose: {fileID: 1267305648}
+  openandclose: {fileID: 0}
   open: 0
-  Player: {fileID: 161574042}
+  Player: {fileID: 0}
 --- !u!95 &1267305648
 Animator:
   serializedVersion: 7
@@ -43323,9 +43342,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1794937419}
-  waypoint2: {fileID: 1107047717}
-  target: {fileID: 1794937419}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1453163418
 PrefabInstance:
@@ -49427,6 +49446,114 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4476616957499719488, guid: 36dee4e097ce701479331df2321c1de3, type: 3}
   m_PrefabInstance: {fileID: 281097644}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1639855229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1639855233}
+  - component: {fileID: 1639855232}
+  - component: {fileID: 1639855231}
+  - component: {fileID: 1639855230}
+  m_Layer: 0
+  m_Name: Cube (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1639855230
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639855229}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1639855231
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639855229}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1639855232
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639855229}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1639855233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639855229}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 66.06, y: 4.15, z: 84.405}
+  m_LocalScale: {x: 0.2, y: 1, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1641026162
 GameObject:
   m_ObjectHideFlags: 0
@@ -51181,6 +51308,114 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1695810601}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1698260249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1698260253}
+  - component: {fileID: 1698260252}
+  - component: {fileID: 1698260251}
+  - component: {fileID: 1698260250}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1698260250
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698260249}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1698260251
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698260249}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1698260252
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698260249}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1698260253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698260249}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 73.3, y: 4.15, z: 85.39}
+  m_LocalScale: {x: 0.2, y: 1, z: 14.4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &1702103211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52266,9 +52501,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 963602440}
-  waypoint2: {fileID: 2129663070}
-  target: {fileID: 963602440}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1744575139
 PrefabInstance:
@@ -52691,9 +52926,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 586808159}
-  waypoint2: {fileID: 2058077775}
-  target: {fileID: 586808159}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1757506318
 PrefabInstance:
@@ -52772,9 +53007,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1839348852}
-  waypoint2: {fileID: 1778138885}
-  target: {fileID: 1839348852}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1758440077
 PrefabInstance:
@@ -53652,9 +53887,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 758590094}
-  waypoint2: {fileID: 1496755684}
-  target: {fileID: 758590094}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1788051797
 PrefabInstance:
@@ -54015,9 +54250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb8106e24b6ba94aa56cd47794f884e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 161574042}
-  roomLight: {fileID: 891880440}
-  interactRange: 3
+  player: {fileID: 0}
+  roomLight: {fileID: 0}
+  interactRange: 2.25
 --- !u!65 &1793785019
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54119,9 +54354,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f5d3d0c1cc69274aabb0a9d4d694c74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  uiText: {fileID: 1622251308}
+  uiText: {fileID: 0}
   range: 3
-  player: {fileID: 161574042}
+  player: {fileID: 0}
 --- !u!1001 &1794086126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54813,7 +55048,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2160559851638519360, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.41
+      value: 3.39
       objectReference: {fileID: 0}
     - target: {fileID: 2160559851638519360, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
       propertyPath: m_LocalPosition.y
@@ -54976,9 +55211,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  openandclose: {fileID: 1811159790}
+  openandclose: {fileID: 0}
   open: 0
-  Player: {fileID: 161574042}
+  Player: {fileID: 0}
 --- !u!95 &1811159790
 Animator:
   serializedVersion: 7
@@ -55186,9 +55421,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 462759487}
-  waypoint2: {fileID: 1501051440}
-  target: {fileID: 462759487}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1816239640
 PrefabInstance:
@@ -55465,9 +55700,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 668239984}
-  waypoint2: {fileID: 2019696113}
-  target: {fileID: 668239984}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1826633468
 PrefabInstance:
@@ -56367,9 +56602,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 2123561442}
-  waypoint2: {fileID: 1921147481}
-  target: {fileID: 2123561442}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &1848720247
 PrefabInstance:
@@ -61413,9 +61648,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 222536267}
-  waypoint2: {fileID: 1524085664}
-  target: {fileID: 222536267}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &2010795430
 PrefabInstance:
@@ -62898,9 +63133,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 1690826805}
-  waypoint2: {fileID: 1882247143}
-  target: {fileID: 1690826805}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &2052134471
 PrefabInstance:
@@ -65990,9 +66225,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoint1: {fileID: 508160545}
-  waypoint2: {fileID: 949299095}
-  target: {fileID: 508160545}
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
   flipLookDirection: 0
 --- !u!1001 &2123028191
 PrefabInstance:
@@ -67082,3 +67317,5 @@ SceneRoots:
   - {fileID: 891880442}
   - {fileID: 1793785022}
   - {fileID: 1008981360}
+  - {fileID: 1698260253}
+  - {fileID: 1639855233}
