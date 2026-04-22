@@ -3,7 +3,9 @@ using UnityEngine;
 public class WallSwitch : MonoBehaviour
 {
     public Transform player;
-    public Light roomLight;
+
+    public Light light1;
+    public Light light2;
 
     public float interactRange = 2.25f;
 
@@ -15,10 +17,8 @@ public class WallSwitch : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                if (roomLight != null)
-                {
-                    roomLight.enabled = !roomLight.enabled;
-                }
+                if (light1 != null) light1.enabled = !light1.enabled;
+                if (light2 != null) light2.enabled = !light2.enabled;
             }
         }
     }
