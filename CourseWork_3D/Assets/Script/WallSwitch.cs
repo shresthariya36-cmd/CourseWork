@@ -12,16 +12,23 @@ public class WallSwitch : MonoBehaviour
 
     void Update()
     {
-        float distance = Vector3.Distance(transform.position, player.position);
-
-        if (distance <= interactRange)
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            float distance = Vector3.Distance(transform.position, player.position);
+
+            Debug.DrawLine(transform.position, player.position, Color.red);
+
+            if (distance <= interactRange)
             {
-                if (light1 != null) light1.enabled = !light1.enabled;
-                if (light2 != null) light2.enabled = !light2.enabled;
-                if (light3 != null) light3.enabled = !light3.enabled;
+                ToggleLights();
             }
         }
+    }
+
+    void ToggleLights()
+    {
+        if (light1 != null) light1.enabled = !light1.enabled;
+        if (light2 != null) light2.enabled = !light2.enabled;
+        if (light3 != null) light3.enabled = !light3.enabled;
     }
 }
