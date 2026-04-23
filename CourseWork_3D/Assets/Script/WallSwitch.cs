@@ -6,6 +6,7 @@ public class WallSwitch : MonoBehaviour
 
     public Light light1;
     public Light light2;
+    public Light light3;
 
     public float interactRange = 2.25f;
 
@@ -19,6 +20,7 @@ public class WallSwitch : MonoBehaviour
             {
                 if (light1 != null) light1.enabled = !light1.enabled;
                 if (light2 != null) light2.enabled = !light2.enabled;
+                if (light3 != null) light3.enabled = !light3.enabled;
             }
         }
     }
