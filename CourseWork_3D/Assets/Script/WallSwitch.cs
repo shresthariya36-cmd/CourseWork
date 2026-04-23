@@ -16,8 +16,6 @@ public class WallSwitch : MonoBehaviour
         {
             float distance = Vector3.Distance(transform.position, player.position);
 
-            Debug.DrawLine(transform.position, player.position, Color.red);
-
             if (distance <= interactRange)
             {
                 ToggleLights();
