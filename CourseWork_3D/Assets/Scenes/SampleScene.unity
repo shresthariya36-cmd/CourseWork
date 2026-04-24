@@ -62059,7 +62059,6 @@ Transform:
   - {fileID: 1698260253}
   - {fileID: 1639855233}
   - {fileID: 1529754210}
-<<<<<<< Updated upstream
   - {fileID: 2066523844}
   - {fileID: 845753462}
   - {fileID: 1805833262}
@@ -62070,9 +62069,7 @@ Transform:
   - {fileID: 582837575}
   - {fileID: 1614178134}
   - {fileID: 329148761}
-=======
   - {fileID: 1280994000}
->>>>>>> Stashed changes
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1789592543 stripped
