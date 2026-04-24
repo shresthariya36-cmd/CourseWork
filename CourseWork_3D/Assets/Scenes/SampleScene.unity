@@ -30781,7 +30781,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8243040555885433666, guid: 21a85cad0f8fc9a47b858f0bfa76ea4d, type: 3}
   m_PrefabInstance: {fileID: 888778491}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
 --- !u!1 &891880439
 GameObject:
   m_ObjectHideFlags: 0
@@ -30903,8 +30902,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1789350666}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> Stashed changes
 --- !u!1001 &892029499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33298,7 +33295,6 @@ CapsuleCollider:
   m_Height: 6.499003
   m_Direction: 1
   m_Center: {x: -0.00001859665, y: 3.2495005, z: 0.3619852}
-<<<<<<< Updated upstream
 --- !u!1 &956841261
 GameObject:
   m_ObjectHideFlags: 0
@@ -33425,8 +33421,6 @@ MonoBehaviour:
   light2: {fileID: 0}
   light3: {fileID: 0}
   interactRange: 2.25
-=======
->>>>>>> Stashed changes
 --- !u!1 &961843473 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7312030133056881508, guid: 21a85cad0f8fc9a47b858f0bfa76ea4d, type: 3}
@@ -62148,7 +62142,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3486382601479575848, guid: 936b6f10da88bb644813e3e9a39b90ce, type: 3}
   m_PrefabInstance: {fileID: 1789933407}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
 --- !u!1 &1793785017
 GameObject:
   m_ObjectHideFlags: 0
@@ -62275,8 +62268,6 @@ MonoBehaviour:
   light2: {fileID: 965388246}
   light3: {fileID: 247333683}
   interactRange: 2.25
-=======
->>>>>>> Stashed changes
 --- !u!1001 &1794086126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76883,9 +76874,6 @@ SceneRoots:
   - {fileID: 211671010}
   - {fileID: 1331637623}
   - {fileID: 836771104}
-<<<<<<< Updated upstream
   - {fileID: 675597650}
-=======
   - {fileID: 395136320}
   - {fileID: 147402249}
->>>>>>> Stashed changes
