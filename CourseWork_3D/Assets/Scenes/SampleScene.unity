@@ -2518,6 +2518,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1 &74137063 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3133796353580539526, guid: 21a85cad0f8fc9a47b858f0bfa76ea4d, type: 3}
@@ -3646,6 +3650,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!4 &109583103 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8669513484510996076, guid: 259516b1bf743f84aba64a77847b9d06, type: 3}
@@ -5561,6 +5569,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &164794127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6649,6 +6661,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openandclose: {fileID: 0}
+  open: 0
+  Player: {fileID: 0}
 --- !u!95 &202777003
 Animator:
   serializedVersion: 7
@@ -11946,6 +11961,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openandclose: {fileID: 0}
+  open: 0
+  Player: {fileID: 0}
 --- !u!95 &328188287
 Animator:
   serializedVersion: 7
@@ -14339,6 +14357,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &386555498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16072,6 +16094,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1 &461639434 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3993519371050436126, guid: 21a85cad0f8fc9a47b858f0bfa76ea4d, type: 3}
@@ -21496,6 +21522,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openandclose: {fileID: 0}
+  open: 0
+  Player: {fileID: 0}
 --- !u!95 &626592261
 Animator:
   serializedVersion: 7
@@ -21869,6 +21898,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openandclose: {fileID: 0}
+  open: 0
+  Player: {fileID: 0}
 --- !u!95 &635741333
 Animator:
   serializedVersion: 7
@@ -22123,6 +22155,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1 &650724015
 GameObject:
   m_ObjectHideFlags: 0
@@ -26050,6 +26086,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &747614881
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29511,6 +29551,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &853611677
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29824,6 +29868,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &856653633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32037,6 +32085,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openandclose: {fileID: 0}
+  open: 0
+  Player: {fileID: 0}
 --- !u!95 &929691015
 Animator:
   serializedVersion: 7
@@ -32298,6 +32349,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &931358309
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33350,6 +33405,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb8106e24b6ba94aa56cd47794f884e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  light1: {fileID: 0}
+  light2: {fileID: 0}
+  light3: {fileID: 0}
+  interactRange: 2.25
 --- !u!1 &961843473 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7312030133056881508, guid: 21a85cad0f8fc9a47b858f0bfa76ea4d, type: 3}
@@ -34939,6 +34999,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &1007140890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36458,6 +36522,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &1028034259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38491,6 +38559,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1 &1101733297 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7312030133056881508, guid: 21a85cad0f8fc9a47b858f0bfa76ea4d, type: 3}
@@ -39185,6 +39257,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1 &1131691227 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1149303287286119761, guid: 8bfcc06111ba45c41abe334ffdfab552, type: 3}
@@ -39762,7 +39838,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4476616957499719488, guid: 36dee4e097ce701479331df2321c1de3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -34.827282
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 4476616957499719488, guid: 36dee4e097ce701479331df2321c1de3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -40997,6 +41073,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1 &1196897411
 GameObject:
   m_ObjectHideFlags: 0
@@ -43852,6 +43932,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openandclose: {fileID: 0}
+  open: 0
+  Player: {fileID: 0}
 --- !u!95 &1267305648
 Animator:
   serializedVersion: 7
@@ -49539,6 +49622,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &1453163418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59994,6 +60081,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &1744575139
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60553,6 +60644,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &1757506318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -60630,6 +60725,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &1758440077
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61730,6 +61829,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &1788051797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62193,7 +62296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eb8106e24b6ba94aa56cd47794f884e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 638282009}
+  player: {fileID: 0}
   light1: {fileID: 891880440}
   light2: {fileID: 965388246}
   light3: {fileID: 247333683}
@@ -63216,6 +63319,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b697b9be3c8d9534ebd171d2b41d6f4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  openandclose: {fileID: 0}
+  open: 0
+  Player: {fileID: 0}
 --- !u!95 &1811159790
 Animator:
   serializedVersion: 7
@@ -63423,6 +63529,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &1816239640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63752,6 +63862,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &1826633468
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64706,6 +64820,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1 &1848453383 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3851325716876681790, guid: 8bfcc06111ba45c41abe334ffdfab552, type: 3}
@@ -70416,6 +70534,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &2010795430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -72069,6 +72191,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1001 &2052134471
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75548,6 +75674,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498144a2077d66d4d9e74ccc58180a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  waypoint1: {fileID: 0}
+  waypoint2: {fileID: 0}
+  target: {fileID: 0}
+  flipLookDirection: 0
 --- !u!1 &2123019232 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7312030133056881508, guid: 21a85cad0f8fc9a47b858f0bfa76ea4d, type: 3}
