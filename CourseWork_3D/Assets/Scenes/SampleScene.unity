@@ -12200,7 +12200,7 @@ Transform:
   m_GameObject: {fileID: 329148758}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.4700012, y: 4.940001, z: 1.8880005}
+  m_LocalPosition: {x: -1.948, y: 4.940001, z: 1.994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -61867,7 +61867,7 @@ MonoBehaviour:
   light1: {fileID: 891880440}
   light2: {fileID: 965388246}
   light3: {fileID: 247333683}
-  interactRange: 3
+  interactRange: 2.25
 --- !u!1001 &1794086126
 PrefabInstance:
   m_ObjectHideFlags: 0
