@@ -3,26 +3,23 @@ using UnityEngine;
 public class WallSwitch : MonoBehaviour
 {
     public Transform player;
+    public Light roomLight;
 
-    public Light light1;
-
-    public float interactRange = 2f;
+    public float interactRange = 2.25f;
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            float distance = Vector3.Distance(transform.position, player.position);
+        float distance = Vector3.Distance(transform.position, player.position);
 
-            if (distance <= interactRange)
+        if (distance <= interactRange)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                ToggleLights();
+                if (roomLight != null)
+                {
+                    roomLight.enabled = !roomLight.enabled;
+                }
             }
         }
-    }
-
-    void ToggleLights()
-    {
-        if (light1 != null) light1.enabled = !light1.enabled;
     }
 }

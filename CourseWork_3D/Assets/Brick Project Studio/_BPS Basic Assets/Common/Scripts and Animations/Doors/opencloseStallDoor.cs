@@ -27,7 +27,7 @@ namespace SojaExiles
 					{
 						if (open == false)
 						{
-							if (Input.GetKeyDown(KeyCode.E))
+							if (Input.GetMouseButtonDown(0))
 							{
 								StartCoroutine(opening());
 							}
@@ -36,7 +36,7 @@ namespace SojaExiles
 						{
 							if (open == true)
 							{
-								if (Input.GetKeyDown(KeyCode.E))
+								if (Input.GetMouseButtonDown(0))
 								{
 									StartCoroutine(closing());
 								}
