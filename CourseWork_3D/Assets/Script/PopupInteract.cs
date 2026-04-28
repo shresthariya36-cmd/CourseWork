@@ -1,9 +1,10 @@
 using UnityEngine;
+using UnityEngine.UI;
 
-public class LightSwitch : MonoBehaviour
+public class PopupInteract : MonoBehaviour
 {
-    public Light roomLight;
     public Transform player;
+    public GameObject popupText;
     public float interactRange = 3f;
 
     void Update()
@@ -12,10 +13,11 @@ public class LightSwitch : MonoBehaviour
 
         if (distance <= interactRange)
         {
-            if (Input.GetKeyDown(KeyCode.E))
-            {
-                roomLight.enabled = !roomLight.enabled;
-            }
+            popupText.SetActive(true);
+        }
+        else
+        {
+            popupText.SetActive(false);
         }
     }
 }
